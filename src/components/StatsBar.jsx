@@ -25,7 +25,7 @@ export default function StatsBar({ totalUIs }) {
     <div className="grid grid-cols-3 gap-4 mb-10">
       {stats.map((s, i) => (
         <div key={i} className="gradient-border bg-brand-card rounded-xl p-4 flex items-center gap-3">
-          <div className="w-10 h-10 rounded-lg bg-violet-600/15 flex items-center justify-center text-violet-400 shrink-0">
+          <div className="w-10 h-10 rounded-lg bg-violet-600/15 flex items-center justify-center text-white shrink-0">
             {s.icon}
           </div>
           <div>

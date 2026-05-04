@@ -59,7 +59,7 @@ export default function UIDetailPage() {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="flex flex-col items-center gap-4">
-          <div className="w-12 h-12 rounded-full border-2 border-violet-500 border-t-transparent animate-spin" />
+          <div className="w-12 h-12 rounded-full border-2 border-white border-t-transparent animate-spin" />
           <p className="text-brand-muted font-body text-sm">Loading...</p>
         </div>
       </div>
@@ -95,7 +95,7 @@ export default function UIDetailPage() {
           </button>
           <button
             onClick={handleShare}
-            className="flex items-center gap-2 px-4 py-2 rounded-lg bg-brand-card border border-brand-border text-brand-muted hover:text-brand-text hover:border-violet-500/40 transition-all text-sm"
+            className="flex items-center gap-2 px-4 py-2 rounded-lg bg-brand-card border border-brand-border text-brand-muted hover:text-brand-text hover:border-white-500/40 transition-all text-sm"
           >
             {shared ? <><Check size={14} className="text-green-400" /> Copied URL</> : <><Share2 size={14} /> Share</>}
           </button>
@@ -103,7 +103,7 @@ export default function UIDetailPage() {
 
         {/* Header */}
         <div className="mb-8 animate-slide-up">
-          <h1 className="font-display text-5xl sm:text-6xl text-gradient mb-3 tracking-wide">{ui.title}</h1>
+          <h1 className="font-display text-5xl sm:text-6xl text-white mb-3 tracking-wide">{ui.title}</h1>
           <div className="flex items-center gap-4 text-xs text-brand-muted font-body">
             <span className="flex items-center gap-1"><Eye size={12} /> {ui.views || 0} views</span>
             <span className="flex items-center gap-1">

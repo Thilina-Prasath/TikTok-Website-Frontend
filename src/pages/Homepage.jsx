@@ -48,16 +48,16 @@ export default function HomePage() {
 
         {/* Hero */}
         <div className="text-center mb-12 animate-slide-up">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-violet-600/10 border border-violet-500/20 text-violet-400 text-sm font-medium mb-5">
+          
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border-3 border-white text-white text-sm font-medium mb-5">
             <Sparkles size={14} />
-            TikTok UI Code Gallery
+            TikTok Account Link :
+            <a href="https://www.tiktok.com/@divdrops" target="_blank" rel="noopener noreferrer" className="underline">
+              @divdrops
+            </a> 
           </div>
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-violet-600/10 border border-violet-500/20 text-violet-400 text-sm font-medium mb-5">
-            <Sparkles size={14} />
-            TikTok Account Link : 
-          </div>
-          <h1 className="font-display text-6xl sm:text-8xl text-gradient mb-4 tracking-wide">
-            UIVault
+          <h1 className="font-display text-6xl sm:text-8xl text-shadow-white mb-4 tracking-wide font-bold">
+            DivDrops
           </h1>
           <p className="text-brand-muted text-lg max-w-xl mx-auto font-body">
             Beautifully crafted UI components. Copy the code, build something amazing.

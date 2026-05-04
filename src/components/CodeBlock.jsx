@@ -30,7 +30,7 @@ export default function CodeBlock({ code, language }) {
         <span className="text-xs font-mono text-brand-muted uppercase tracking-widest">{language}</span>
         <button
           onClick={handleCopy}
-          className="copy-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg bg-brand-border hover:bg-violet-600/20 text-brand-muted hover:text-violet-400 border border-transparent hover:border-violet-500/30 transition-all duration-200"
+          className="copy-btn flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg bg-brand-border hover:bg-white-600/20 text-brand-muted hover:text-violet-400 border border-transparent hover:border-violet-500/30 transition-all duration-200"
         >
           {copied ? <><Check size={12} /> Copied!</> : <><Copy size={12} /> Copy</>}
         </button>
